@@ -1,0 +1,116 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  background-color: rgb(77, 77, 147);
+}
+
+.Home_Container{
+  color: rgb(250, 247, 247);
+  background-color: rgb(77, 77, 147);
+  width: 100%;
+  padding-top: 5%;
+  height: fit-content;
+}
+
+.Home_Container div:first-child{
+  width: 40%;
+  margin: auto;
+}
+
+.Home_Container div:nth-child(2){
+  width: 50%;
+  font-size: 180%;
+  font-weight: 600;
+  margin: auto;
+
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.Home_Container div img{
+  width: 40%;
+}
+
+.Home_Container > .btn  button{
+  padding: 1% 4%;
+  background-color: rgb(96, 96, 221);;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  margin: 1%;
+  font-size: 140%;
+}
+
+.Home_Container > .btn  button:hover{
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.Home_Container > div:last-child{
+  padding: 5%;
+  text-align: justify;
+  font-size: 120%;
+}
+
+
+@media all and (min-width: 751px) and (max-width: 1000px){
+      
+  .Home_Container div img{
+    width: 70%;
+    margin-top: 5%;
+  }
+  .Home_Container > div:last-child{
+    font-size: 90%;
+  }
+    
+  .Home_Container div:nth-child(2){
+    width: fit-content;
+    font-size: 150%;
+    margin: auto;
+    font-weight: bold;
+    margin-bottom: 5%;
+  }
+
+}
+
+@media all and (min-width: 551px) and (max-width: 750px){
+  .Home_Container div img{
+    width: 80%;
+    margin-top: 10%;
+  }
+  .Home_Container > div:last-child{
+    font-size: 80%;
+  }
+    
+  .Home_Container div:nth-child(2){
+    width: fit-content;
+    font-size: 100%;
+    margin: auto;
+    font-weight: bold;
+    margin-bottom: 5%;
+  }
+
+}
+
+
+@media all and (min-width: 280px) and (max-width: 550px){
+  .Home_Container div img{
+    width: 80%;
+    margin-top: 20%;
+  }
+  .Home_Container > div:last-child{
+    font-size: 60%;
+  }
+    
+  .Home_Container div:nth-child(2){
+    width: fit-content;
+    font-size: 80%;
+    margin: auto;
+    font-weight: bold;
+    margin-bottom: 5%;
+  }
+
+}
